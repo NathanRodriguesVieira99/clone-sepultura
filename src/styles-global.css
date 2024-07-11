@@ -22,7 +22,7 @@ body {
     background-color: #262626;
     padding: 8px 0;
     width: 100%;
-    height: 5%;
+    height: 5.5%;
     position: absolute;
     top: 0;
     left: 0;
@@ -341,7 +341,7 @@ body {
 
 
 
-.finalLinks{
+.finalLinks {
     margin-top: 5%;
     align-items: center;
     justify-content: center;
