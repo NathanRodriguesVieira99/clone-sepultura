@@ -513,6 +513,7 @@ body {
         display: flex;
         justify-content: center;
         margin-left: 0.1%;
+        background-repeat: no-repeat;
     }
 
     .slider {
