@@ -475,7 +475,7 @@ body {
         justify-content: flex-start;
 
     }
-    .listaFim{
+    .listaFim ul li{
         display: block;
     }
 }
