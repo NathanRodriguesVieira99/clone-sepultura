@@ -111,7 +111,7 @@ body {
     height: 561px;
     width: 1583px;
     margin-top: 0.3%;
-    background-image: url('/images/fundos/fundofinal.jpg');
+    background-image: url('./images/fundos/fundofinal.jpg');
 }
 
 
@@ -174,7 +174,7 @@ body {
     height: 100vh;
     width: 100%;
     margin-top: 0.3%;
-    background-image: url('/images/fundos/fundofinal.jpg');
+    background-image: url('./images/fundos/fundofinal.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
