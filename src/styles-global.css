@@ -475,7 +475,9 @@ body {
         justify-content: flex-start;
 
     }
-
+    .listaFim{
+        display: block;
+    }
 }
 
 /* responsividade fim */
