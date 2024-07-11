@@ -348,12 +348,13 @@ body {
     text-align: center;
 }
 
-.endLinkI,
-.endLinkII,
-.endLinkIII {
+.finalLinks a.endLinkI,
+.finalLinks a.endLinkII,
+.finalLinks a.endLinkIII {
     text-decoration: underline;
     gap: 5%;
     padding: 0.5%;
+    color: white;
 }
 
 
@@ -392,9 +393,6 @@ body {
         width: 1300px;
     }
 
-    .newsImages .IndigenaII .IndigenaIII {
-        display: none;
-    }
 
     #tourTickets {
         margin-top: 92%;
@@ -473,13 +471,13 @@ body {
         display: none;
     }
 
-    .endLinkI,
-    .endLinkII,
-    .endLinkIII {
+    .finalLinks{
         flex-direction: column;
         display: flex;
         justify-content: flex-start;
-
+    }
+    .finalLinks a.endLinkIII {
+        color: red;
     }
 
 }
