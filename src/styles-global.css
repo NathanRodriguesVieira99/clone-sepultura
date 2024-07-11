@@ -370,8 +370,12 @@ body {
         background-image: url('');
     }
 
-    .newsImages {
+    .newsImages .indigenaI {
         width: auto;
+    }
+
+    .newsImages .indigenaII .indigenaIII{
+        display: none;
     }
 
     #tourTickets {
