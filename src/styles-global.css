@@ -397,6 +397,7 @@ body {
 
     .newsImagesSlider {
         width: 300px;
+        overflow: hidden;
     }
 
 
