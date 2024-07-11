@@ -417,7 +417,8 @@ body {
         margin-left: 6%;
         justify-content: center;
         margin-right: 8%;
-        
+        width: calc(100% - 20px);
+        max-width: 100%;
     }
 
     .event-info {
@@ -446,9 +447,10 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-right: 85px;
-        margin-left: 42%;
-        width: 100vw;
+        margin-right: 10px; 
+        margin-left: 10px; 
+        width: calc(100% - 20px);
+        max-width: 100%;
     }
 
     #LogoEnd {
