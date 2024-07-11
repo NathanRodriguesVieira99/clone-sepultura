@@ -397,6 +397,7 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding-right: 25px;
     }
 
     #tourTickets h3 {
@@ -420,7 +421,7 @@ body {
         justify-content: center;
         text-align: center;
         margin-left: 8%;
-        padding-right: 15px;
+        
     }
 
     .event-info li {
