@@ -16,6 +16,8 @@ body {
     margin: 0;
 }
 
+
+
 .fundo-top {
     background-color: #262626;
     padding: 8px 0;
@@ -27,6 +29,7 @@ body {
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 
 .redes-sociais {
     list-style: none;
@@ -46,13 +49,17 @@ body {
 .redes-sociais img {
     width: 16px;
     height: 16px;
+
 }
+
 
 #inicio {
     position: relative;
     z-index: 2000;
     background-color: black;
+
 }
+
 
 .container {
     margin-top: 4%;
@@ -107,6 +114,7 @@ body {
     background-image: url('./images/fundos/fundofinal.jpg');
 }
 
+
 .containerFortyYears {
     width: 97%;
     text-align: center;
@@ -159,6 +167,7 @@ body {
     gap: 4%;
     margin-top: 1.5%;
 }
+
 
 #tourTickets {
     background-repeat: no-repeat;
@@ -323,11 +332,14 @@ body {
 
 .listaFim ul li a {
     color: white;
+
 }
 
 .listaFim ul li a:hover {
     color: red;
 }
+
+
 
 .finalLinks {
     margin-top: 5%;
@@ -344,11 +356,17 @@ body {
     padding: 0.5%;
 }
 
+
 /* menu mobile inicio */
+
+
+
 /* menu mobile fim */
 
 /* responsividade inicio */
 @media (max-width: 574px) {
+   
+    
     #overlay ul {
         display: none;
     }
@@ -370,11 +388,11 @@ body {
         background-image: url('');
     }
 
-    .newsImages .indigenaI {
-        width: auto;
+    .newsImages {
+        width: 1300px;
     }
 
-    .newsImages .indigenaII .indigenaIII{
+    .newsImages .IndigenaII .IndigenaIII {
         display: none;
     }
 
@@ -451,7 +469,7 @@ body {
         height: 21px;
     }
 
-    .listaFim {
+     .listaFim {
         display: none;
     }
 
@@ -461,6 +479,9 @@ body {
         flex-direction: column;
         display: flex;
         justify-content: flex-start;
+
     }
+
 }
+
 /* responsividade fim */
