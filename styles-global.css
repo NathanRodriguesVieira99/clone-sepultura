@@ -472,9 +472,8 @@ body {
         flex-direction: column;
         display: flex;
         justify-content: flex-start;
-
+        text-decoration: none;
     }
 
 }
-
 /* responsividade fim */
