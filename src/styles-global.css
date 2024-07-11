@@ -14,9 +14,9 @@ body {
     color: #fff;
     font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evitar barra de rolagem horizontal */
 }
-
-
 
 .fundo-top {
     background-color: #262626;
@@ -29,7 +29,6 @@ body {
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
 
 .redes-sociais {
     list-style: none;
@@ -49,17 +48,13 @@ body {
 .redes-sociais img {
     width: 16px;
     height: 16px;
-
 }
-
 
 #inicio {
     position: relative;
     z-index: 2000;
     background-color: black;
-
 }
-
 
 .containerTopo {
     margin-top: 4%;
@@ -112,8 +107,8 @@ body {
     width: 100%;
     margin-top: 0.3%;
     background-image: url('./images/fundos/fundofinal.jpg');
+    background-size: cover;
 }
-
 
 .containerFortyYears {
     width: 97%;
@@ -271,25 +266,33 @@ body {
     padding: 2em;
     background-color: #000;
     color: #fff;
+    overflow-x: hidden; /* Evitar barra de rolagem horizontal */
 }
 
 .logoEredes {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 325px;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 165px;
+    min-width: calc(100% - 20px);
+    max-width: 100%;
+    margin-top: 9%;
 }
 
 #LogoEnd {
-    width: 180px;
-    height: 165px;
+    margin-top: 55%;
+    width: auto;
+    height: 225px;
+    margin-right: 330px;
+    margin-left: 1%;
 }
 
 #redesEndI {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .redes-sociaisII {
@@ -298,6 +301,8 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .redes-sociaisII li a img {
@@ -341,14 +346,11 @@ body {
 
 .listaFim ul li a {
     color: white;
-
 }
 
 .listaFim ul li a:hover {
     color: red;
 }
-
-
 
 .finalLinks {
     margin-top: 5%;
@@ -366,9 +368,7 @@ body {
     color: white;
 }
 
-
 /* menu mobile inicio */
-
 
 
 /* menu mobile fim */
@@ -394,12 +394,10 @@ body {
         gap: 2%;
     }
 
-
     .newsImagesSlider {
         width: 300px;
         overflow: hidden;
     }
-
 
     #tourTickets {
         margin-top: 72%;
@@ -452,7 +450,7 @@ body {
         padding: 2em;
         background-color: #000;
         color: #fff;
-        overflow-x: hidden; /* Evita a barra de rolagem horizontal */
+        overflow-x: hidden; 
     }
     
     .logoEredes {
@@ -560,8 +558,6 @@ body {
         background-image: url('./images/fundos/fundofinal.jpg');
         background-size: cover;
     }
-
-
 }
 
 /* responsividade fim */
