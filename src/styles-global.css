@@ -420,6 +420,7 @@ body {
         justify-content: center;
         text-align: center;
         margin-left: 8%;
+        padding-right: 15px;
     }
 
     .event-info li {
