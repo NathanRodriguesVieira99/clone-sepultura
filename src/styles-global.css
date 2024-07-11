@@ -391,12 +391,6 @@ body {
         gap: 2%;
     }
 
-    .primeiraParte {
-        background-repeat: no-repeat;
-        height: 561px;
-        margin-top: 0.3%;
-        background-image: url('');
-    }
 
     .newsImagesSlider {
         width: 300px;
@@ -495,6 +489,7 @@ body {
         overflow: hidden;
         width: 100%;
         display: flex;
+        
 
     }
 
