@@ -530,7 +530,14 @@ body {
         display: none;
     }
 
-
+    .primeiraParte {
+        background-repeat: no-repeat;
+        height: 561px;
+        width: 100%;
+        margin-top: 0.3%;
+        background-image: url('./images/fundos/fundofinal.jpg');
+        background-size: cover; 
+    }
 }
 
 /* responsividade fim */
