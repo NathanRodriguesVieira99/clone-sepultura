@@ -440,14 +440,14 @@ body {
         align-items: center;
         justify-content: center;
         margin-right: 85px;
-        margin-left: 52%;
+        margin-left:22%;
     }
 
     #LogoEnd {
-        margin-top: 85%;
-        width: 225px;
+        margin-top: 45%;
+        width: auto
         height: 225px;
-        margin-right: 385px;
+        margin-right: 330px;
         margin-left: 1%;
     }
 
@@ -465,8 +465,8 @@ body {
         margin: 0;
         justify-content: center;
         align-items: center;
-        margin-left: -380px;
-        margin-right: 20px;
+        margin-left: -340px;
+        margin-right: 22%;
     }
 
     .redes-sociaisII li a img {
