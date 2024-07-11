@@ -392,7 +392,7 @@ body {
     }
 
     #tourTickets {
-        margin-top: 72%;
+        margin-top: 82%;
         background-image: url('');
         justify-content: center;
         align-items: center;
@@ -454,7 +454,7 @@ body {
         margin-left: 165px;
         min-width: calc(100% - 20px);
         max-width: 100%;
-        margin-top: 9%;
+        margin-top: 12%;
     }
     
     #LogoEnd {
