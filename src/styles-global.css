@@ -441,8 +441,8 @@ body {
 
     #redesEndI {
         text-align: center;
-        margin-top: 20px; 
-        margin-bottom: 20px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .redes-sociaisII {
@@ -456,23 +456,25 @@ body {
         margin-left: -380px;
         margin-right: 20px;
     }
-    
+
     .redes-sociaisII li a img {
         width: 21px;
         height: 21px;
     }
+
     .footer-container .listaFim ul li a {
-       display: block;
+        display: block;
     }
-    .endLinkI, .endLinkII, .endLinkIII {
+
+    .endLinkI,
+    .endLinkII,
+    .endLinkIII {
         flex-direction: column;
         display: flex;
         justify-content: flex-start;
-        
+
     }
-    
+
 }
+
 /* responsividade fim */
-
-
-
