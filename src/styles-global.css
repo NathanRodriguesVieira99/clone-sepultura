@@ -399,14 +399,25 @@ body {
 
 
     #tourTickets {
-        margin-top: 92%;
+        margin-top: 72%;
         background-image: url('');
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #tourTickets h3{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .container {
         gap: 10px;
         margin-left: 6%;
         justify-content: center;
+        margin-right: 8%;
+        
     }
 
     .event-info {
@@ -414,21 +425,20 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin-left: 8%;
     }
 
     .event-info li {
         margin-bottom: 10px;
     }
 
-    .event-info li .button-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     #allDates {
         width: auto;
         height: auto;
+    }
+
+    .container .button-container{
+        margin-left: 4.5%;
     }
 
     .logoEredes {
@@ -437,11 +447,12 @@ body {
         align-items: center;
         justify-content: center;
         margin-right: 85px;
-        margin-left: 22%;
+        margin-left: 42%;
+        width: 100vw;
     }
 
     #LogoEnd {
-        margin-top: 45%;
+        margin-top: 55%;
         width: auto;
         height: 225px;
         margin-right: 330px;
@@ -489,8 +500,7 @@ body {
         overflow: hidden;
         width: 100%;
         display: flex;
-        
-
+        margin-left: 6.5%;
     }
 
     .slider {
@@ -533,6 +543,8 @@ body {
         background-image: url('./images/fundos/fundofinal.jpg');
         background-size: cover; 
     }
+
+
 }
 
 /* responsividade fim */
